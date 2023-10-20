@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d5a5cbc60c963449403ecac156f811, type: 3}
+  m_Name: Heros
+  m_EditorClassIdentifier: 
+  troopType: 5
+  amountToSpawn: 1
+  minAmountToSpawn: 10
+  maxAmountToSpawn: 50
+  randomAmountToSpawn: 0
+  unitColors:
+  - {r: 1, g: 0, b: 0.8116021, a: 0}
+  - {r: 0.8696041, g: 0, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0.44076967, a: 0}
+  - {r: 0.7075472, g: 0, b: 0.57436186, a: 0}
+  - {r: 1, g: 0.4292453, b: 0.8925638, a: 0}
+  unitNames:
+  - Link
+  - Mario
+  - Master Chief
+  - AntMan
+  - Pickachu
+  unitBasePrefab: {fileID: 5573370601484825845, guid: 94f456ac9e3d8b840bf27d3a59b96702,
+    type: 3}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a163792a183846b4ab71b0a44cdb0b5e, type: 3}
+  m_Name: Pig
+  m_EditorClassIdentifier: 
+  chanceToSpawn: 50
+  shape: 6
+  prefabReference: {fileID: 1055064919166404, guid: de6abd774f85e18408346a3233418242,
+    type: 3}
+  randomScale: 1
+  scaleMin: 0.2
+  scaleMax: 1
+  randomColor: 0
+  betweenHues: 0
+  hue1: {r: 0, g: 0, b: 0, a: 0}
+  hue2: {r: 0, g: 0, b: 0, a: 0}
+  shapeColor: {r: 0, g: 0, b: 0, a: 1}

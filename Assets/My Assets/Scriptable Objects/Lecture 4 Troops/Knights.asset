@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d5a5cbc60c963449403ecac156f811, type: 3}
+  m_Name: Knights
+  m_EditorClassIdentifier: 
+  troopType: 3
+  amountToSpawn: 1
+  minAmountToSpawn: 3
+  maxAmountToSpawn: 15
+  randomAmountToSpawn: 1
+  unitColors:
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 1, g: 0, b: 0.26166153, a: 0}
+  - {r: 1, g: 0.29164252, b: 0, a: 0}
+  - {r: 0.6603774, g: 0, b: 0, a: 0}
+  - {r: 1, g: 0.36320752, b: 0.36320752, a: 0}
+  unitNames:
+  - ' Jaime'
+  - Barristan
+  - Jorah
+  - Meryn
+  - Stannis
+  unitBasePrefab: {fileID: 3634834468886549486, guid: 53dbcaad111be614b9c7146d2eb231c8,
+    type: 3}

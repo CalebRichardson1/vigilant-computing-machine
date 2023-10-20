@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d5a5cbc60c963449403ecac156f811, type: 3}
+  m_Name: Axe Men
+  m_EditorClassIdentifier: 
+  amountToSpawn: 10
+  minAmountToSpawn: 4
+  maxAmountToSpawn: 8
+  randomAmountToSpawn: 1
+  unitColors:
+  - {r: 0.45242205, g: 1, b: 0.4292453, a: 0}
+  - {r: 0.71886116, g: 1, b: 0.20392156, a: 0}
+  - {r: 0.20392156, g: 1, b: 0.5988285, a: 0}
+  - {r: 0.16039929, g: 0.6037736, b: 0.12246352, a: 0}
+  - {r: 0.0028378963, g: 1, b: 0, a: 0}
+  unitNames:
+  - Jeff
+  - Jared
+  - Jarge
+  - Jones
+  - JoJo
+  unitBasePrefab: {fileID: 4491855788365425871, guid: 74ede3a4ec188f24b83cc27643ed2bdc,
+    type: 3}

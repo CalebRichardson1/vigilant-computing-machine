@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d5a5cbc60c963449403ecac156f811, type: 3}
+  m_Name: Druids
+  m_EditorClassIdentifier: 
+  troopType: 2
+  amountToSpawn: 1
+  minAmountToSpawn: 1
+  maxAmountToSpawn: 5
+  randomAmountToSpawn: 1
+  unitColors:
+  - {r: 1, g: 0.81626403, b: 0.18396229, a: 0}
+  - {r: 1, g: 0.9533971, b: 0.3537736, a: 0}
+  - {r: 1, g: 0.6730132, b: 0.18431371, a: 0}
+  - {r: 0.90705174, g: 1, b: 0.18431371, a: 0}
+  - {r: 0.6320754, g: 0.52360946, b: 0.15205587, a: 0}
+  unitNames:
+  - Anenga
+  - Dareth
+  - Denatharion
+  - Dular
+  - Kal
+  unitBasePrefab: {fileID: 969223653711260103, guid: 514d8ad2f4fa9e34e972c0a0230c46c0,
+    type: 3}

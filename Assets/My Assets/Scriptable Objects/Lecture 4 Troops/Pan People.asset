@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d5a5cbc60c963449403ecac156f811, type: 3}
+  m_Name: Pan People
+  m_EditorClassIdentifier: 
+  troopType: 4
+  amountToSpawn: 2
+  minAmountToSpawn: 0
+  maxAmountToSpawn: 0
+  randomAmountToSpawn: 0
+  unitColors:
+  - {r: 0.08187969, g: 0.08189445, b: 0.754717, a: 0}
+  - {r: 0, g: 0.8818116, b: 1, a: 0}
+  - {r: 0.046884477, g: 0.0064079626, b: 0.4528302, a: 0}
+  - {r: 0, g: 0.27800846, b: 1, a: 0}
+  - {r: 0.20038268, g: 0.45099553, b: 0.745283, a: 0}
+  unitNames:
+  - Tetra
+  - Tingle
+  - Ganon
+  - Beedle
+  - Impa
+  unitBasePrefab: {fileID: 5932735446022329511, guid: 6dfd24c8886879841a401e35394aed3f,
+    type: 3}
